@@ -1,0 +1,45 @@
+td, th {
+  width: 4rem;
+  height: 2rem;
+
+  text-align: center;
+}
+th {
+  background: lightblue;
+  font-weight: 200;
+}
+
+#contact {
+  height: 850px; }
+
+form {
+  max-width: 450px;
+  margin: 0 auto 50px; }
+  form label {
+    display: block;
+    margin-bottom: 20px; }
+    form label span {
+      display: block;
+      font-size: 18px;
+      font-weight: 300; }
+
+.contact-info label {
+  width: 50%;
+  float: left; }
+
+input, textarea {
+  border: 3px solid black;
+  color: lightskyblue;
+  padding: 10px; }
+
+input {
+  width: 80%;
+  padding: 10px; }
+
+textarea {
+  height: 10em;
+  width: 90%; }
+
+.button {
+  background: lightskyblue;
+  color: black; }
